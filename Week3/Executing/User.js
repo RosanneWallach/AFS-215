@@ -1,5 +1,5 @@
 module.exports = class User {
-    constructor(name = "Dylan", age = 34, num1 = 2, num2 = 5) {
+    constructor(name = "Dylan", age = 34, num1 = 3, num2 = 8) {
       this.num1 = num1;
       this.num2 = num2;
       this.name = name;
