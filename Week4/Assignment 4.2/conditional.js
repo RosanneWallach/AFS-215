@@ -1,15 +1,6 @@
 const chai = require('chai')
 const expect = chai.expect
 
-/* Return "1" when passed 1
-Return "2" when passed 2
-Return "Good Morning" when passed a 3
-Return "Good Afternoon" when passed a 7
-Return "Good Morning" when passed a 3 or a multiple thereof
-Return "Good Afternoon" when passed a 7 or a multiple thereof
-Return "Good Evening" when passed a multiple of 3 and 7
-If the number is neither a multiple of 3 or 7 return that number as a string
-If any data type other than a number is passed return an error message */
 
 function taskComplete(arg) {
     if(typeof arg === "number"){
